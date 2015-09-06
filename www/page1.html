@@ -1,0 +1,47 @@
+<ons-navigator>
+   <ons-page>
+        <ons-toolbar>
+            <div class="left">
+                <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
+            </div>
+            <div class="center">StartHere</div>
+        </ons-toolbar>
+
+        <div style="text-align: center">
+            <h2>We are the</h2>
+            <img src="images/etribe.png" alt="">
+            <ons-button
+                ng-click="app.slidingMenu.toggleMenu()">
+                View Menu
+            </ons-button>
+
+            <p> Click "View Menu" to close/open menu, </p>
+            <p> You can also swipe the page left/right.  </p>
+            <img src="images/ico_swipe_right_s.png" alt="">
+        </div>
+        <div class="bottom-bar" style="text-align: center; background-color: transparent">
+            <div class="bottom-bar__line-height" style="text-align: center; background-color: transparent">
+                <div class="button-bar" style="width:100%;">
+                  <div class="button-bar__item">
+                    <button class="button-bar__button">
+                        <a href="http://www.twitter.com"><i class="icon fa fa-twitter-square fa-lg" style="color: #ff0000"></i></a>
+                    </button>
+                  </div>                
+                    <div class="button-bar__item">
+                    <button class="button-bar__button">
+                        <a href="http://www.facebook.com"><i class="icon fa fa-facebook-square fa-lg" style="color: #ff0000"></i></a>
+                    </button>
+                    </div>
+                
+                    <div class="button-bar__item">
+                    <button class="button-bar__button">
+                        <a href="http://www.instagram.com"><i class="icon fa fa-instagram fa-lg" style="color: #ff0000"></i></a>
+                    </button>
+                    </div>
+                    </div>              
+                </div>
+            </div>
+        </div>
+
+    </ons-page>
+</ons-navigator>
